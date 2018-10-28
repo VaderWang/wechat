@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password
+    url: jdbc:mysql://localhost/wechat?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    hibernate:
+#      ddl-auto: update
+
+server:
+  port: 80
+#  servlet:
+#    context-path: /sell
